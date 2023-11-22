@@ -1,0 +1,5 @@
+var list = document.querySelectorAll('[aria-label="Delete"]');
+for(var i=0; i != list.length; i++) 
+{   
+list[i].click(); 
+};
